@@ -1,11 +1,9 @@
 <html>
 <head>
  <style>
-
 table, th, td {
   border: 1px solid black;
- 
- border-collapse: collapse;
+  border-collapse: collapse;
 }
 
 </style>
@@ -61,19 +59,12 @@ Type of payment you opted:<?php echo $_GET["pay"]; ?><br>
  <tr>
     
 <td>laptop</td>
-    
 <td><?php echo $_GET["lt"]; ?></td> 
-    
 <td><?php echo $_GET["lt"]*33000; ?></td>
- 
  </tr>
-
-
-<tr>
+  <tr>
 <td>Total cost:<?php echo $_GET["usb"]*300+$_GET["mouse"]*200+$_GET["kb"]*400+$_GET["lt"]*33000; ?>
 </tr>
 </table>
 </body>
 </html>
-cart.php.txt
-Displaying cart.php.txt.
