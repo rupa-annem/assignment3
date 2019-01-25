@@ -16,9 +16,7 @@
              echo "None";
          else
             echo  "There are" .$c. "Values";
-      
-   
-          $c2=0;
+         $c2=0;
          echo "<h1>Data Received(sorted by name)</h1>";
          echo "<br>";
          ksort($_GET);
